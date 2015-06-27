@@ -1,4 +1,4 @@
-FROM cellofellow/rpi-arch
+FROM shyiko/armv7-archlinux
 
 RUN pacman -Syyu --noconfirm && \
     pacman-db-upgrade && \

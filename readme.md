@@ -47,6 +47,8 @@ docker run --name hubot --link hubot-redis-brain:redis \
   -d shyiko/hubot --adapter skype-over-phantomjs
 ```
 
+> ... on ARMv7 replace `redis:3.0.1` with `shyiko/armv7-redis`. 
+
 > You can check Hubot logs with `docker logs -f hubot`.
 
 ## License
