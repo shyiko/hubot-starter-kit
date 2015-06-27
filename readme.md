@@ -42,7 +42,7 @@ docker build -t shyiko/hubot .
 docker run --name hubot-redis-brain -d redis:3.0.1 redis-server --appendonly yes # data volume - /data
 docker run --name hubot --link hubot-redis-brain:redis \
   -e REDIS_URL=redis://redis:6379/hubot \
-  -e HUBOT_SKYPE_USERNAME=<username> \
+  -e HUBOT_SKYPE_USERNAME=<microsoft_account> \
   -e HUBOT_SKYPE_PASSWORD=<password> \
   -d shyiko/hubot --adapter skype-over-phantomjs
 ```
