@@ -2,6 +2,9 @@
 
 Everything you need to get started with [Hubot](https://github.com/github/hubot).
 
+> If you are new to Hubot - please read
+[github/hubot/.../docs/scripting.md](https://github.com/github/hubot/blob/master/docs/scripting.md).
+
 ## What's included?
 
 * Automated workflow (external-scripts.json regeneration on npm postinstall, 
@@ -25,7 +28,7 @@ npm install
 npm run start-dev 
 ```
 
-> `npm run start-dev` loads shell adapter by default. If you want another 
+> `npm run start-dev` loads shell adapter by default (start with `hubot help`). If you want another 
  one (say HipChat) then `npm install hubot-hipchat --save && HUBOT_HIPCHAT_JID=<id> HUBOT_HIPCHAT_PASSWORD=<password> npm run start-dev -- --adapter hipchat`
 
 ## Building Docker image
