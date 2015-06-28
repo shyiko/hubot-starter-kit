@@ -25,10 +25,10 @@ Add/remove stuff to suit your needs.
 ```sh
 git clone https://github.com/shyiko/hubot-starter-kit && cd hubot-starter-kit 
 npm install
-npm run start-dev 
+npm run start-dev # try asking "hubot help"
 ```
 
-> `npm run start-dev` loads shell adapter by default (start with `hubot help`). If you want another 
+> `npm run start-dev` loads shell adapter by default. If you want another 
  one (say HipChat) then `npm install hubot-hipchat --save && HUBOT_HIPCHAT_JID=<id> HUBOT_HIPCHAT_PASSWORD=<password> npm run start-dev -- --adapter hipchat`
 
 ## Building Docker image
